@@ -1,9 +1,10 @@
+// пикча
     function changeImage() {
       var image = document.getElementById("bonfire");
       image.src = "https://media.discordapp.net/attachments/984099010484764673/1107272872969388142/Z_1.png?width=179&height=206";
       image.alt = "jizaaa";
     }
-
+// фразы
 var phrases = [
     // хз кто
     "Bonfire like sex, it's need but not much.",
@@ -44,7 +45,9 @@ var phrases = [
     //manul
     "https://discord.gg/96F6Vf3ZWR",
     "\"Bobfire\" (c) Manul",
-    "\"v0.2.0a\" (c) Manul"
+    "\"v0.2.0a\" (c) Manul",
+    // Lendory
+    "бонфайр конечно крутой, но манулы круч"
   ];
 
   function getRandomPhrase() {
