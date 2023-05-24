@@ -1,151 +1,26 @@
 <!DOCTYPE html>
 <html>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <head>
-        <title>Bonfire</title>
+    <title>Bonfire</title>
     <link rel="icon" href="https://images-ext-2.discordapp.net/external/5QVTLTWUEpJKOInuxRKZBd3DsorXrENBJZ9wZntuF3M/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/974557608486789141/2acb0072389995aa534976ba87d72e40.png?width=479&height=479">
     <meta charset="UTF-8">
     <meta name="description" content="Bonfire">
     <meta name="keywords" content="Bonfire, ManulBot, Костер, Bonfire Bot, Discord, Manul, n3k0, MEE6, Juniper, JuniperBot">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-color: #202329;
-      font-family: 'Montserrat', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    
-    .container {
-      text-align: center;
-    }
-    
-    .container img {
-      max-width: 100%;
-      cursor: pointer; 
-    }
-    
-    .container a {
-      color: #fff;
-      display: block;
-      margin-top: 10px;
-      text-decoration: none;
-    }
-        .container .button-wrapper {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
-
-        .container .button {
-            display: inline-block;
-            background-color: #7289DA;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 4px;
-            margin: 0 5px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-            text-align: center;
-        }
-
-        .container .button:hover {
-            background-color: #5a68a5;
-        }
-
-    .random-text {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      color: #2a2e36;
-      font-size: 14px;
-    }
-
-          footer {
-        margin-top: auto;
-        color: #fff;
-        font-size: 14px;
-        text-align: center;
-        padding: 10px 0;
-      }
-
-      footer a {
-        color: #fff;
-        text-decoration: underline;
-  </style>
-
-  <script>
-    function changeImage() {
-      var image = document.getElementById("bonfire");
-      image.src = "https://media.discordapp.net/attachments/984099010484764673/1107272872969388142/Z_1.png?width=179&height=206";
-      image.alt = "jizaaa";
-    }
-  </script>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <img id="bonfire" src="https://cdn.discordapp.com/avatars/974557608486789141/2acb0072389995aa534976ba87d72e40.png?size=128" alt="Bonfire" onclick="changeImage()">
-<div class="random-text" id="randomText"></div>
-
-<script>
-  var phrases = [
-    "Bonfire like sex, it's need but not much.",
-    "Made by Manul & N3k0 with ❤",
-    "Imagine the most comfortable guild with Bonfire.",
-    "Lol!",
-    "Python.",
-    "Reload the page for the text to change!",
-    "Lendory are cool!",
-    "https://youtu.be/dQw4w9WgXcQ",
-    "\"блять\" (c) Manul",
-    "Hello World!",
-    "у, я, hello, мир, манера крутит мир",
-    "сломанный ублюдок, я родился в рефлексии",
-    "аа манулы ахуенынйееый",
-    "да",
-    "кто такой Боря",
-    "он вам не манул!",
-    "чзх",
-    "апните бота на мониторингах, прошу",
-    "майним на мышках",
-    "перезагрущи страницу, чтоб текст изменился",
-    "я заебался.",
-    "пашу на 4 работах нахуй",
-    "Made in Belarus and Ukraine",
-    "ХАХХАХАХААХАХХААХАХХАХА",
-    "?",
-    "я стал соплей!",
-    "нас верефнули кста",
-    "завтра v0.2.0",
-    "кака макака эта неко кака макака",
-    "а вы знали что бот фигня??",
-    "я удалил бота 👿",
-    "✔ верифиед сайт",
-    "овн дискорд продукшон, маде ин чайник",
-    "подайте денег на хост"
-  ];
-
-  function getRandomPhrase() {
-    var randomIndex = Math.floor(Math.random() * phrases.length);
-    return phrases[randomIndex];
-  }
-
-  var randomTextElement = document.getElementById("randomText");
-  randomTextElement.innerText = getRandomPhrase();
-        // крч да
-</script>
-        <a href="https://discord.com/api/oauth2/authorize?client_id=974557608486789141&permissions=380104988737&scope=applications.commands%20bot">Пригласить</a>
-        <a href="https://discord.gg/96F6Vf3ZWR">Сервер поддержки</a>
+    <div class="random-text" id="randomText"></div>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=974557608486789141&permissions=380104988737&scope=applications.commands%20bot">Пригласить</a>
+    <a href="https://discord.gg/96F6Vf3ZWR">Сервер поддержки</a>
     <p> </p>
     <footer>
       <a href="https://github.com/ManulCode/bonfire/blob/main/tos.md">Terms of Service</a> <a href="https://github.com/ManulCode/bonfire/blob/main/policy.md">Privacy Policy</a>
     </footer>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
