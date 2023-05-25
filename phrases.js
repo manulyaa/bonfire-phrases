@@ -1,39 +1,15 @@
-// пикча
-    function changeImage() {
-      var image = document.getElementById("bonfire");
-      image.src = "https://media.discordapp.net/attachments/984099010484764673/1107272872969388142/Z_1.png?width=179&height=206";
-      image.alt = "jizaaa";
-    }
-// фразы
 var phrases = [
     // хз кто
     "Bonfire like sex, it's need but not much.",
-    "Made by Manul & N3k0 with ❤",
     "Imagine the most comfortable guild with Bonfire.",
-    "Lol!",
-    "Python.",
-    "Reload the page for the text to change!",
-    "Lendory are cool!",
+    "Lendory крут!",
     "https://youtu.be/dQw4w9WgXcQ",
-    "\"блять\" (c) Manul",
     "Hello World!",
-    "у, я, hello, мир, манера крутит мир",
     "сломанный ублюдок, я родился в рефлексии",
     "аа манулы ахуенынйееый",
-    "да",
-    "кто такой Боря",
-    "он вам не манул!",
-    "чзх",
     "апните бота на мониторингах, прошу",
     "майним на мышках",
-    "перезагрущи страницу, чтоб текст изменился",
-    "я заебался.",
-    "пашу на 4 работах нахуй",
-    "Made in Belarus and Ukraine",
-    "ХАХХАХАХААХАХХААХАХХАХА",
-    "?",
-    "я стал соплей!",
-    "нас верефнули кста",
+    "перезагрузи страницу, чтоб текст изменился",
     "завтра v0.2.0",
     // n3k0
     "кака макака эта неко кака макака",
@@ -46,6 +22,7 @@ var phrases = [
     "https://discord.gg/96F6Vf3ZWR",
     "\"Bobfire\" (c) Manul",
     "\"v0.2.0a\" (c) Manul",
+    "\"このニシキヘビをクソくらえ！\" (c) Manul",
     // Lendory
     "бонфайр конечно крутой, но манулы круч"
   ];
@@ -57,4 +34,3 @@ var phrases = [
 
   var randomTextElement = document.getElementById("randomText");
   randomTextElement.innerText = getRandomPhrase();
-        // крч да
